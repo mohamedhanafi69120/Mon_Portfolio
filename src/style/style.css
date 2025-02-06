@@ -454,4 +454,24 @@ section .heading {
   font-size: 22px;
 }
 
+/* FOOTER */
+.footer {
+  background-color: #4b6c73;
+  padding: 20px 0 40px;
+  text-align: center;
+}
+.footer-title {
+  color: #fff;
+  font-weight: normal;
+  font-size: 20px;
+}
+.footer .bi-chevron-up {
+  color: #000;
+  font-size: 25px;
+  line-height: 35px;
+}
+.footer .bi-chevron-up:hover {
+  font-size: 32px;
+}
+
 /*# sourceMappingURL=style.css.map */

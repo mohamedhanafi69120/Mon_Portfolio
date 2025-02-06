@@ -1,0 +1,24 @@
+@use "./variables" as variables; // Import correct de variables.scss
+
+/* FOOTER */
+.footer {
+  background-color: #4b6c73;
+  padding: 20px 0 40px;
+  text-align: center;
+
+  &-title {
+    color: variables.$color-white; // Utilisation correcte des variables
+    font-weight: normal;
+    font-size: 20px;
+  }
+
+  .bi-chevron-up {
+    color: variables.$color-primary; // Utilisation correcte des variables
+    font-size: 25px;
+    line-height: 35px;
+
+    &:hover {
+      font-size: 32px;
+    }
+  }
+}
