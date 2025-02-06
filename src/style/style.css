@@ -421,4 +421,37 @@ section .heading {
   white-space: pre-wrap;
 }
 
+/* CONTACT */
+#contact {
+  background: #000;
+}
+#contact .heading {
+  text-transform: uppercase;
+}
+#contact-form {
+  font-size: 20px;
+  color: #fff;
+  padding: 20px;
+}
+#contact-form input[type=submit] {
+  margin: 40px auto 0;
+  display: block;
+}
+#contact .form-control {
+  height: 50px;
+  font-size: 18px;
+}
+#contact .comments {
+  font-style: italic;
+  font-size: 18px;
+  color: #fff;
+  height: 25px;
+}
+#contact .thank-you {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
 /*# sourceMappingURL=style.css.map */
