@@ -387,4 +387,38 @@ section .heading {
   }
 }
 
+/* PORTFOLIO */
+.portfolio {
+  background: #000;
+}
+.portfolio .heading {
+  text-transform: uppercase;
+}
+.portfolio-col {
+  margin-bottom: 20px;
+}
+.portfolio .img-thumbnail {
+  display: flex;
+  width: 100%;
+  height: 340px;
+}
+@media (max-width: 768px) {
+  .portfolio .img-thumbnail {
+    height: 300px;
+  }
+}
+.portfolio .img-thumbnail:hover {
+  filter: none;
+}
+.portfolio #my-tooltip {
+  display: flex;
+  z-index: 1;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  border-radius: 5px;
+  white-space: pre-wrap;
+}
+
 /*# sourceMappingURL=style.css.map */

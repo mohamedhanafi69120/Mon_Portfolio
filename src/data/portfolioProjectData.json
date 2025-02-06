@@ -1,0 +1,50 @@
+{
+  "items": [
+    {
+      "imagePath": "images/portfolio1.webp",
+      "projectUrl": "https://github.com/mohamedhanafi69120/Riding_Citites",
+      "tooltipContent": "Riding cities - HTML"
+    },
+    {
+      "imagePath": "images/portfolio2.webp",
+      "projectUrl": "https://github.com/mohamedhanafi69120/Booki-Projet3",
+      "tooltipContent": "Site Booki - HTML & CSS"
+    },
+    {
+      "imagePath": "images/portfolio3.webp",
+      "projectUrl": "https://github.com/mohamedhanafi69120/OhmyfoodOhmyfood",
+      "tooltipContent": "ohmyfood - HTML & CSS"
+    },
+    {
+      "imagePath": "images/portfolio4.webp",
+      "projectUrl": "https://github.com/mohamedhanafi69120/Print-it-Javascript",
+      "tooltipContent": "printit - JAVASCRIPT"
+    },
+    {
+      "imagePath": "images/portfolio5.webp",
+      "projectUrl": "https://github.com/mohamedhanafi69120/Portfolio-architecte-sophie-bluel",
+      "tooltipContent": "SOPHIE BLUEL- ROUTES API - ",
+      "onClick": true
+    },
+    {
+      "imagePath": "images/portfolio6.webp",
+      "projectUrl": "https://github.com/mohamedhanafi69120/kasa7",
+      "tooltipContent": "kasa - React"
+    },
+    {
+      "imagePath": "images/portfolio8.webp",
+      "projectUrl": "https://github.com/mohamedhanafi69120/P9_nina-carducci",
+      "tooltipContent": "Optimisez le référencement d'un site de photographe"
+    },
+    {
+      "imagePath": "images/portfolio9.webp",
+      "projectUrl": "https://github.com/mohamedhanafi69120/P9_Debuggez-une-application",
+      "tooltipContent": "Débuggez le site d'une agence d'événementiel - React"
+    },
+    {
+      "imagePath": "images/portfolio10.webp",
+      "projectUrl": "https://github.com/mohamedhanafi69120/P10_ArgentBank",
+      "tooltipContent": "Implémentez le front-end d'une application bancaire avec React - React"
+    }
+  ]
+}

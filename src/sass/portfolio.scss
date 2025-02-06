@@ -1,0 +1,38 @@
+/* PORTFOLIO */
+
+@use "./variables" as variables; // Import correct de variables.scss
+
+.portfolio {
+  background: variables.$color-primary;
+
+  .heading {
+    text-transform: uppercase;
+  }
+
+  &-col {
+    margin-bottom: 20px;
+  }
+  .img-thumbnail {
+    display: flex;
+    width: 100%;
+    height: 340px;
+
+    // filter: grayscale(100%);
+    @media (max-width: 768px) {
+      height: 300px;
+    }
+    &:hover {
+      filter: none;
+    }
+  }
+  #my-tooltip {
+    display: flex;
+    z-index: 1;
+    background-color: variables.$color-white;
+    font-size: 16px;
+    font-weight: 600;
+    color: variables.$color-primary;
+    border-radius: 5px;
+    white-space: pre-wrap;
+  }
+}
