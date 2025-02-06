@@ -1,0 +1,125 @@
+@use "./variables" as variables; // Import correct de variables.scss
+
+/* EXPERIENCE */
+
+.experience {
+  background-color: variables.$color-primary;
+
+  .heading {
+    text-transform: uppercase;
+  }
+  .timeline {
+    padding: 30px 10px;
+    position: relative;
+
+    &:before {
+      content: " ";
+      top: 0;
+      bottom: 0;
+      position: absolute;
+      width: 5px;
+      background-color: #333;
+      left: 50%;
+      margin-left: -2.5px;
+    }
+
+    & > li {
+      margin-bottom: 20px;
+      position: relative;
+    }
+
+    & > li:before,
+    & > li:after {
+      content: " ";
+      display: table;
+    }
+
+    & > li:after {
+      clear: both;
+    }
+
+    &-badge {
+      color: variables.$color-primary;
+      width: 50px;
+      line-height: 50px;
+      font-size: 20px;
+      text-align: center;
+      position: absolute;
+      top: 16px;
+      left: 50%;
+      margin-left: -25px;
+      background-color: #ddd;
+      border-radius: 50%;
+    }
+
+    &-panel {
+      width: 90%;
+      float: right;
+      margin-right: 40px;
+      border: 1px solid #d4d4d4;
+      border-radius: 7px;
+      padding: 20px 25px;
+      position: relative;
+      box-shadow: 0 1px 6px rgba(86, 179, 135, 0.514);
+      background: variables.$color-white;
+      @media (max-width: 720px) {
+        font-size: 15px;
+        padding: 15px;
+      }
+      &:after {
+        position: absolute;
+        top: 27px;
+        right: -14px;
+        display: inline-block;
+        border-top: 14px solid transparent;
+        border-left: 14px solid variables.$color-white;
+        border-right: 0 solid variables.$color-white;
+        border-bottom: 14px solid transparent;
+        content: " ";
+      }
+      &-container {
+        width: 50%;
+        float: left;
+        @media (max-width: 720px) {
+          margin-left: 10px;
+        }
+      }
+
+      &-container-inverted {
+        width: 50%;
+        float: right;
+        @media (max-width: 720px) {
+          margin-right: 10px;
+        }
+        & .timeline-panel {
+          float: left;
+          margin-left: 40px;
+        }
+
+        & .timeline-panel:after {
+          border-left-width: 0;
+          border-right-width: 14px;
+          left: -14px;
+          right: auto;
+        }
+      }
+    }
+
+    &-heading {
+      &-subtitle {
+        margin-top: 5px;
+        font-size: 20px;
+        @media (max-width: 720px) {
+          font-size: 15px;
+        }
+      }
+
+      &-title {
+        color: variables.$color-primary;
+        @media (max-width: 720px) {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
