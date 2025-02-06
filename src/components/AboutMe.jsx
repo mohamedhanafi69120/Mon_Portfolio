@@ -1,4 +1,5 @@
 import React from "react";
+import SocialNetwork from "./SocialNetwork";
 
 const About = () => {
   return (
@@ -25,6 +26,7 @@ const About = () => {
         >
           Télécharger CV
         </a>
+        <SocialNetwork />
       </div>
     </section>
   );
