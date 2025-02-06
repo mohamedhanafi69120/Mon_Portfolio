@@ -13,23 +13,23 @@
     {
       "imagePath": "images/portfolio3.webp",
       "projectUrl": "https://github.com/mohamedhanafi69120/OhmyfoodOhmyfood",
-      "tooltipContent": "ohmyfood - HTML & CSS"
+      "tooltipContent": "Ohmyfood - HTML & CSS"
     },
     {
       "imagePath": "images/portfolio4.webp",
       "projectUrl": "https://github.com/mohamedhanafi69120/Print-it-Javascript",
-      "tooltipContent": "printit - JAVASCRIPT"
+      "tooltipContent": "Printit - Javascript"
     },
     {
       "imagePath": "images/portfolio5.webp",
       "projectUrl": "https://github.com/mohamedhanafi69120/Portfolio-architecte-sophie-bluel",
-      "tooltipContent": "SOPHIE BLUEL- ROUTES API - ",
+      "tooltipContent": "Sophie Bluel- Routes API - ",
       "onClick": true
     },
     {
       "imagePath": "images/portfolio6.webp",
       "projectUrl": "https://github.com/mohamedhanafi69120/kasa7",
-      "tooltipContent": "kasa - React"
+      "tooltipContent": "Kasa - React"
     },
     {
       "imagePath": "images/portfolio8.webp",
