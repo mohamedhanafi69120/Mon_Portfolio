@@ -12,7 +12,7 @@ const Contact = () => {
         </div>
         <div className="row">
           <div className="col-lg-8 col-lg-offset-1" style={{ margin: "auto" }}>
-            <form id="contact-form" method="post" action="php/contact.php">
+            <form id="contact-form" method="post" action="">
               <div className="row">
                 <div className="col-md-6">
                   <label htmlFor="firstname">Prénom*</label>

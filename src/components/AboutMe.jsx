@@ -19,13 +19,17 @@ const About = () => {
           expériences web intuitives et innovantes.
         </p>
         <h2 className="title about-subtitle">Intégrateur Web</h2>
-        <a
+        {/* <a
           href="doc/CV_Mohamed.pdf"
-          aria-label="Télécharger mon CV"
+          type="application/pdf"
+          aria-label="Télécharger mon CV au format PDF"
+          download="CV_Mohamed.pdf" // Force le téléchargement
+          target="_blank" // Ouvre dans un nouvel onglet
+          rel="noopener noreferrer" // Sécurité pour les liens externes
           className="button1"
         >
           Télécharger CV
-        </a>
+        </a> */}
         <SocialNetwork />
       </div>
     </section>

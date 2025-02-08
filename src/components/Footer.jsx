@@ -1,19 +1,36 @@
-// Footer.jsx
-
 import React from "react";
 
 const Footer = () => {
   return (
     <footer className="footer">
+      <div className="footer-content">
+        <a
+          href="mailto:mohamedhanafi69100@gmail.com"
+          aria-label="Envoyer un email"
+          className="social-icon"
+        >
+          <i className="bi bi-envelope"></i>
+        </a>
+        <span>mohamedhanafi69100@gmail.com</span>
+
+        <a
+          href="tel:0783348196"
+          aria-label="Appeler ce numéro"
+          className="social-icon"
+        >
+          <i className="bi bi-phone"></i>
+        </a>
+        <span>0783348196</span>
+      </div>
       <a
-        href="/OC_Projet-12/#about"
-        aria-label="lien vers la section à propos de moi"
+        href="#about"
+        aria-label="Retour en haut de la page"
+        className="footer-back-to-top"
       >
-        <span className="bi-chevron-up"></span>
+        <i className="bi bi-chevron-up"></i>
       </a>
       <h3 className="footer-title">
-        {" "}
-        <main>Mon-portfolio</main>
+        © 2025 Hanafi Mohamed. All rights reserved.
       </h3>
     </footer>
   );

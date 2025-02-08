@@ -4,22 +4,13 @@ const SocialNetwork = () => {
   return (
     <div className="social-bar">
       <a
-        href="https://www.facebook.com"
+        href="https://github.com/mohamedhanafi69120"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Lien vers ma page Facebook"
+        aria-label="Lien vers mes repositories GitHub"
         className="social-icon"
       >
-        <i className="bi bi-facebook"></i>
-      </a>
-      <a
-        href="https://twitter.com"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Lien vers ma page Twitter"
-        className="social-icon"
-      >
-        <i className="bi bi-twitter"></i>
+        <i className="bi bi-github"></i>
       </a>
       <a
         href="https://linkedin.com"
@@ -29,15 +20,6 @@ const SocialNetwork = () => {
         className="social-icon"
       >
         <i className="bi bi-linkedin"></i>
-      </a>
-      <a
-        href="https://github.com/mohamedhanafi69120"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Lien vers mes repositories GitHub"
-        className="social-icon"
-      >
-        <i className="bi bi-github"></i>
       </a>
     </div>
   );
